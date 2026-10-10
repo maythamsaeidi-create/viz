@@ -1,0 +1,506 @@
+# Avee Web — Test Center Report
+
+- build: `avee-web-v1.2.101-r114.0-20261010-sharpness`
+- time: 2026-10-10T03:19:15.975Z · duration 355.6s
+- scope: 105 visualizer(s) × 10/11 test stage(s) — skipped: apkpix
+- env: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 · DPR 1 · 1600x900 · GL: ANGLE (Intel, Intel(R) UHD Graphics 770 (0x00004680) Direct3D11 vs_5_0 ps_5_0, D3D11)
+- verdict: 46/105 failing · findings: 111 error · 8 suspicious · 0 unclear
+- diff basis: decompiled Avee APK 1.2.252 — geometry re-derived per element (Element.n + kk0, AUD-RECT-PARITY), property registry per key, pixel-history per dispatch; a finding = web behaves differently than the APK formula/registry, not a heuristic guess
+- filtered: 90 APK-parity behavior(s) (inactive elements / keys both engines ignore / still-image with no audio / flat fills) excluded as NON-differences — detail in the advanced debugger
+
+Legend: ✗ error (confirmed difference vs APK) · ▲ suspicious (candidate difference — verify) · ? unclear (cannot be determined in-browser)
+
+## Visual 1 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 2 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c0#4 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Visual 3 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c1#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c1#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Visual 4 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 5 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 6 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 7 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 8 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 9 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 10 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 11 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 12 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 13 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 14 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c0#4 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Visual 15 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 16 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 17 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 18 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visual 19 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Adam Nayak — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c31#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## visualizer_74 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_951 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c0#6 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Ab Template_Wave Paarticles & Glitch — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## [GRIM] 3D Legendary Remake — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Template Avee Player (Tube 3D) By Luyx LS  — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c1#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## visualizer_19(2) — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_28 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c2#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Sky_Bad — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c0#11 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## 3D-Ball_V3.1_Visualizer_By_BvssMvgic — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## sample — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_6 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Codex -Nr-visualizer_20 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Template Avee Player (Neon Party 3D) by @LuyxLS — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c3#2 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Phonk — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c3#7 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Plagarism — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c13#2 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c13#3 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c13#4 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## Spin cross — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [loops] LA-DISPATCH-ZERO: visible drawable dispatched but the loop chain emitted ZERO draws @ c23#0 Particles — an upstream loop exited early (provider null / path empty / font invalid…) — see per-loop ledger
+- ✗ [deep-audit] c23#0 Particles "Particles" — AUD-NOT-RENDERED: element emitted NO draw calls — nothing was rasterized — type=Particles shader=buffer
+- ✗ [deep-audit] c8#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Codex-Nr-visualizer_36 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## [PhungMusic]_visualizer_26 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_23 — PASS (blank by structure)
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_dipaptma — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c12#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c12#2 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c12#3 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## Rizky Selgi — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c2#4 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c2#5 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c2#6 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c2#7 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## PurpleAvee — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_19 — PASS
+- (stages skipped for this run: apkpix)
+- ▲ [graphics] output is a STILL IMAGE while the audio path is live (liveness 0.000/255) — a reactive template must move; per-element repaint checks in the deep audit tell whether this is a stuck render
+
+## black hole — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Simple Trap — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_19(3) — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_38 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## [Amplitude Emotions] VBAZ — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c0#9 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c0#10 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## Codex-Nr-visualizer_67 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Epic Shake V.3 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## [Azukane] Sky — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c11#9 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## visualizer_Axime3 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Alphation#1 - 3D Cassette Avee Template — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c1#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c1#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c3#9 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c3#10 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c3#11 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c3#12 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## Glitch bars — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_55 — PASS
+- (stages skipped for this run: apkpix)
+- ▲ [graphics] output is a STILL IMAGE while the audio path is live (liveness 0.011/255) — a reactive template must move; per-element repaint checks in the deep audit tell whether this is a stuck render
+
+## [Kazuki Template] Avee Player Template #18 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c6#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c6#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c7#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c7#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Template Avee Player (Rhombu) By LuyxLS Horde  — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c2#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## visualizer_18(1) — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c2#4 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c2#5 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c2#6 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## visualizer_28(1) — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c2#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Simple 3d — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c19#2 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## visualizer_22 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c2#6 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c2#7 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c2#11 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## ғᴇʀᴅɪ ᴀsᴄᴇɴᴅ2 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c15#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## TEMPLATE EPIC SHAKE V.2 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c1#5 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Template (Elemental 3D) by TheRareLSTrap Free Use (No Gif) — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c29#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## Bars devil and beat hold by feel asc — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c25#2 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ▲ [deep-audit] c27#0 Particles "Particles" — AUD-NO-PIXEL-DELTA: drew with alpha > 0, content non-transparent at its attributes, yet ZERO pixels changed anywhere on the target in the WHOLE session — either stacked under an opaque layer (APK …
+- ▲ [deep-audit] c27#1 Particles "Particles" — AUD-NO-PIXEL-DELTA: drew with alpha > 0, content non-transparent at its attributes, yet ZERO pixels changed anywhere on the target in the WHOLE session — either stacked under an opaque layer (APK …
+
+## visualizer_byEb — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c29#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c29#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## Template For Avee player (Lamp 3D) no Gif by TheRareLSTrap (Free Use) — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Visualizer BassBoosted S.A.W — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## v3 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c15#6 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c15#7 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c15#15 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h …
+
+## [Falcon Bass] Gold skull — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Template epic shake by play music — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_21 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_25 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## [Hikaru Error] Nightcore Visual — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c1#8 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c4#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## visualizer_19(1) — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## 3D Room Aestethic — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c12#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c12#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c12#2 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## visualizer_65 — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c3#3 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c3#4 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c2#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## SY - FLY [1.0] (ORIGINAL) — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualiz) — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## 3D_BALL_FLAMES_V2_BY_BASS_MAGIC — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Tag_!!! — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## 3D ROOM 2021 AVEE PLAYER TEMPLATE — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c14#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c15#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c0#9 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c0#10 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c0#11 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## [RiseldBass] Set 3d spin by Rb — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## W_project — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c48#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## iAndrink_viz_21 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Template For Avee Player (Neon Cube 3D) by Luyx Error (Free Use) — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c2#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## NAON PROJECT — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c0#3 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c0#4 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c0#5 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Template avee player (Crazy Bars) By Luyx Error  — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c0#9 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c0#10 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## SPOTIFY (VERTICAL) (BY SLENDYALEX) — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c6#0 Text "Texto" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c6#1 Text "Texto" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c5#3 Text "Texto" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c5#4 Text "Texto" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [graphics] خروجی کاملاً سیاه است (نسبت غیرسیاه = 0) و قالب blank-by-design نیست
+
+## SPOTIFY (HORIZONTAL) (BY SLENDYALEX) — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c5#0 Text "Texto" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c5#1 Text "Texto" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c5#4 Text "Texto" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c5#5 Text "Texto" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [graphics] خروجی کاملاً سیاه است (نسبت غیرسیاه = 0) و قالب blank-by-design نیست
+
+## visualizer S.A.W — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_18(4) — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## viz_21.ғᴇ — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Template For Avee player (illusion 3D) by The Rare LSTrap Free use — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## THE SPOT (BY SLENDYALEX) — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## visualizer_37 — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Nightcore Temple Old Style — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c9#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c9#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ▲ [deep-audit] c6#0 Bars "Bars/Segments" — AUD-NO-PIXEL-DELTA: drew with alpha > 0, content non-transparent at its attributes, yet ZERO pixels changed anywhere on the target in the WHOLE session — either stacked under an opaque layer (APK st…
+- ▲ [deep-audit] c2#0 Bars "Bars/Segments" — AUD-NO-PIXEL-DELTA: drew with alpha > 0, content non-transparent at its attributes, yet ZERO pixels changed anywhere on the target in the WHOLE session — either stacked under an opaque layer (APK st…
+
+## Template Avee Player (Neon Box 3D) By LuyxLS Horde — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c7#3 Text "Texto" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+
+## New style magic music  — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c24#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ✗ [deep-audit] c24#2 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h =…
+- ▲ [deep-audit] c20#0 Bars "Bars/Segments" — AUD-NO-PIXEL-DELTA: drew with alpha > 0, content non-transparent at its attributes, yet ZERO pixels changed anywhere on the target in the WHOLE session — either stacked under an opaque layer (APK s…
+- ▲ [deep-audit] c21#0 Bars "Bars/Segments" — AUD-NO-PIXEL-DELTA: drew with alpha > 0, content non-transparent at its attributes, yet ZERO pixels changed anywhere on the target in the WHOLE session — either stacked under an opaque layer (APK s…
+
+## glassBARS60fps — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [loops] LA-DISPATCH-ZERO: visible drawable dispatched but the loop chain emitted ZERO draws @ c4#0 Particles — an upstream loop exited early (provider null / path empty / font invalid…) — see per-loop ledger
+- ✗ [loops] LA-DISPATCH-ZERO: visible drawable dispatched but the loop chain emitted ZERO draws @ c7#0 Particles — an upstream loop exited early (provider null / path empty / font invalid…) — see per-loop ledger
+- ✗ [loops] LA-DISPATCH-ZERO: visible drawable dispatched but the loop chain emitted ZERO draws @ c9#0 Particles — an upstream loop exited early (provider null / path empty / font invalid…) — see per-loop ledger
+- ✗ [loops] LA-DISPATCH-ZERO: visible drawable dispatched but the loop chain emitted ZERO draws @ c10#0 Particles — an upstream loop exited early (provider null / path empty / font invalid…) — see per-loop ledger
+- ✗ [loops] LA-DISPATCH-ZERO: visible drawable dispatched but the loop chain emitted ZERO draws @ c11#0 Particles — an upstream loop exited early (provider null / path empty / font invalid…) — see per-loop ledger
+- ✗ [loops] LA-DISPATCH-ZERO: visible drawable dispatched but the loop chain emitted ZERO draws @ c12#0 Particles — an upstream loop exited early (provider null / path empty / font invalid…) — see per-loop ledger
+- ✗ [loops] LA-DISPATCH-ZERO: visible drawable dispatched but the loop chain emitted ZERO draws @ c14#0 Particles — an upstream loop exited early (provider null / path empty / font invalid…) — see per-loop ledger
+- ✗ [loops] LA-DISPATCH-ZERO: visible drawable dispatched but the loop chain emitted ZERO draws @ c13#0 Particles — an upstream loop exited early (provider null / path empty / font invalid…) — see per-loop ledger
+- ✗ [deep-audit] c4#0 Particles "Particles" — AUD-NOT-RENDERED: element emitted NO draw calls — nothing was rasterized — type=Particles shader=buffer
+- ✗ [deep-audit] c7#0 Particles "Particles" — AUD-NOT-RENDERED: element emitted NO draw calls — nothing was rasterized — type=Particles shader=buffer
+- ✗ [deep-audit] c9#0 Particles "Particles" — AUD-NOT-RENDERED: element emitted NO draw calls — nothing was rasterized — type=Particles shader=buffer
+- ✗ [deep-audit] c10#0 Particles "Particles" — AUD-NOT-RENDERED: element emitted NO draw calls — nothing was rasterized — type=Particles shader=buffer
+- ✗ [deep-audit] c11#0 Particles "Particles" — AUD-NOT-RENDERED: element emitted NO draw calls — nothing was rasterized — type=Particles shader=buffer
+- ✗ [deep-audit] c12#0 Particles "Particles" — AUD-NOT-RENDERED: element emitted NO draw calls — nothing was rasterized — type=Particles shader=buffer
+- ✗ [deep-audit] c14#0 Particles "Particles" — AUD-NOT-RENDERED: element emitted NO draw calls — nothing was rasterized — type=Particles shader=buffer
+- ✗ [deep-audit] c13#0 Particles "Particles" — AUD-NOT-RENDERED: element emitted NO draw calls — nothing was rasterized — type=Particles shader=buffer
+
+## 3D Audio Visualizer — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## Akira-Axime — PASS
+- (stages skipped for this run: apkpix)
+- ✓ clean — no difference vs the APK reference found (0 error, 0 suspicious, 0 unclear)
+
+## [Hikaru Error] Nightcore Visual(1) — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c1#8 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c4#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## [Hikaru Error] Nightcore Visual(2) — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c1#8 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+- ✗ [deep-audit] c4#0 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+## Simple Trap Full White — FAIL
+- (stages skipped for this run: apkpix)
+- ✗ [deep-audit] c7#1 Text "Text" — AUD-RECT-PARITY: web draw rect DIFFERS from the APK reference formula (Element.n + kk0, decompiled 1.2.252) — the APK would place/size this element elsewhere: a real geometry divergence — expected l,t,w,h = …
+
+---
+How to reproduce: open the app → مرکز تست و اسکن (Ctrl+Shift+D) → tick the same visualizers and stages → شروع اسکن.
+Engine: Avee Player web port (APK parity engine, single GLES20 path). Every ✗/▲ line carries expected-vs-actual values against the decompiled APK 1.2.252 reference. Full unfiltered detail (incl. filtered non-differences) is in the in-app debugger (دیباگر پیشرفته).
